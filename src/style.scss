@@ -258,6 +258,9 @@ body {
     }
 
     &__text-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         color: #636e72;
         font-size: 0.95rem;
         line-height: 1.5;
