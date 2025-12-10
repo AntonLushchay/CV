@@ -70,6 +70,7 @@ body {
         color: var(--text-sidebar);
         padding-inline: 30px;
         padding-top: 100px;
+        padding-bottom: 15px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -505,5 +506,11 @@ body {
         .education__items {
             font-size: 0.8rem;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .resume-container {
+        grid-template-columns: 1fr;
     }
 }
